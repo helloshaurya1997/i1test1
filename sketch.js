@@ -9,7 +9,7 @@ function draw(){
 getTime();
 }
 async function getTime(){
-    var response=await fetch("http://worldtimeapi.org/api/timezone/asia/kolkata")
+    var response=await fetch("https://worldtimeapi.org/api/timezone/asia/kolkata")
     var response1=await response.json();
     var dateTime=response1.datetime;
     var min=dateTime.slice(11,16);
