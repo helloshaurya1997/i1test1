@@ -17,7 +17,7 @@ async function getTime(){
     console.log(hr);
 
     if(hr >= 00 && hr <=11){
-        console.log("morning");
+        console.log("morrrning");
     }
     else if(hr >= 12 && hr <=16){
         console.log("afternoon");
